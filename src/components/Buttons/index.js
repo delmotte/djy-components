@@ -11,7 +11,7 @@ export const SimpleButton = React.createClass({
 
     render() {
         return (
-            <button {...this.props} className={"djy-button" + (('' + this.props.type) || '')}>
+            <button {...this.props} className={"djy-button " + (this.props.type || '')}>
                 {this.props.icon && <i className="material-icons">{this.props.icon}</i>}
                 {this.props.text}
                 <ReactInk />
