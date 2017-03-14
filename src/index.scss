@@ -1,7 +1,25 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,500,500i,700,700i');
+@import url('https://fonts.googleapis.com/icon?family=Material+Icons');
+
+$primary-color: dodgerblue;
+$link-color: dodgerblue;
+$success-color: #00bfa5;
+$error-color: #e57373;
+$background-color: #F4F6F7;
+
+* {
+    font-family: 'Roboto', sans-serif;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
 .djy-button {
     border: none;
     position: relative;
-    background: dodgerblue;
+    background: $primary-color;
     color: white;
     outline: 0px !important;
     text-transform: uppercase;
@@ -9,4 +27,13 @@
     border-radius: 3px;
     padding: 8px 16px;
     cursor: pointer;
+    font-weight: 500;
+
+    &.success {
+        background: $success-color;
+    }
+    &.error {
+        background: $error-color;
+    }
+
 }

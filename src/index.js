@@ -1,3 +1,1 @@
-module.exports = {
-    Buttons: require('./components/Buttons')
-};
+export const Buttons = require('./components/Buttons');
