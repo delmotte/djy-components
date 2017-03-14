@@ -4,7 +4,7 @@ import ReactInk from 'react-ink';
 export const SimpleButton = React.createClass({
 
     propTypes: {
-        text: React.PropTypes.string.required,
+        text: React.PropTypes.string.isRequired,
         icon: React.PropTypes.string,
         type: React.PropTypes.oneOf(['success', 'error'])
     },
