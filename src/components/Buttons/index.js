@@ -1,7 +1,7 @@
-import React from 'react';
-import ReactInk from 'react-ink';
+var React = require('react');
+var ReactInk = require('react-ink');
 
-export const SimpleButton = React.createClass({
+var SimpleButton = React.createClass({
 
     render() {
         return (
@@ -13,3 +13,7 @@ export const SimpleButton = React.createClass({
     }
 
 });
+
+module.exports = {
+    SimpleButton
+};
