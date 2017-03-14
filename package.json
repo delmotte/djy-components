@@ -2,7 +2,7 @@
     "name": "djy-components",
     "version": "1.0.0",
     "description": "Djy Components for React",
-    "main": "index.js",
+    "main": "./lib/index.js",
     "author": "Jena-Yves DELMOTTE <delmotte.jy@gmail.com>",
     "license": "ISC",
     "peerDependencies": {
