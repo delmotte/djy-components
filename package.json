@@ -1,24 +1,29 @@
 {
-  "name": "djy-components",
-  "version": "1.0.0",
-  "description": "Djy Components for React",
-  "main": "index.js",
-  "author": "Jena-Yves DELMOTTE <delmotte.jy@gmail.com>",
-  "license": "ISC",
-  "peerDependencies": {
-    "react": "^15.0.1"
-  },
-  "dependencies": {
-    "react-ink": "^6.1.1"
-  },
-  "devDependencies": {
-    "babel-cli": "^6.24.0",
-    "babel-preset-es2015": "6.22.0",
-    "babel-preset-react": "^6.23.0",
-    "node-sass": "^4.5.0"
-  },
-  "scripts": {
-    "build": "./node_modules/.bin/babel src --out-dir lib && node-sass ./src/index.scss ./lib/index.css",
-    "postinstall": "./node_modules/.bin/babel src --out-dir lib && node-sass ./src/index.scss ./lib/index.css"
-  }
+    "name": "djy-components",
+    "version": "1.0.0",
+    "description": "Djy Components for React",
+    "main": "index.js",
+    "author": "Jena-Yves DELMOTTE <delmotte.jy@gmail.com>",
+    "license": "ISC",
+    "peerDependencies": {
+        "react": "^15.0.1"
+    },
+    "dependencies": {
+        "react-ink": "^6.1.1",
+        "babel-cli": "^6.24.0",
+        "babel-preset-es2015": "6.22.0",
+        "babel-preset-react": "^6.23.0",
+        "node-sass": "^4.5.0"
+    },
+    "devDependencies": {
+        "babel-cli": "^6.24.0",
+        "babel-preset-es2015": "6.22.0",
+        "babel-preset-react": "^6.23.0",
+        "node-sass": "^4.5.0",
+        "react": "^15.0.1"
+    },
+    "scripts": {
+        "build": "./node_modules/.bin/babel src --out-dir lib && node-sass ./src/index.scss ./lib/index.css",
+        "postinstall": "./node_modules/.bin/babel src --out-dir lib && node-sass ./src/index.scss ./lib/index.css"
+    }
 }
