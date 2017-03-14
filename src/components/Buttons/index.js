@@ -20,3 +20,9 @@ export const SimpleButton = React.createClass({
     }
 
 });
+
+export const FlatButton = React.createClass({
+     render() {
+         return <SimpleButton {...this.props} className={this.props.className + ' flat'}/>
+     }
+});

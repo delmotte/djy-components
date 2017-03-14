@@ -16,6 +16,10 @@ $background-color: #F4F6F7;
     margin: 0;
 }
 
+button {
+    background: transparent;
+}
+
 .djy-button {
     border: none;
     position: relative;
@@ -43,6 +47,17 @@ $background-color: #F4F6F7;
         box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
     }
 
+    &.flat {
+        background: transparent;
+        color: $primary-color;
+        .material-icons {
+            color: $primary-color;
+        }
+        &:hover {
+            background: rgba(255, 255, 255, 0.1);
+        }
+    }
+
     &.success {
         background: $success-color;
     }
@@ -58,7 +73,7 @@ $background-color: #F4F6F7;
     }
 
     span.label {
-        margin-right: 8px;
+        margin-right: 4px;
     }
 
 }
